@@ -44,11 +44,8 @@ if __name__ == "__main__":
 
     match = []
     for words in comp:
-        word1 = words[0]
-        word2 = words[1]
-        word3 = words[2]
-        for letter in word1:
-            if word2.find(letter) >= 0 and word3.find(letter) >= 0:
+        for letter in words[0]:
+            if words[1].find(letter) >= 0 and words[2].find(letter) >= 0:
                 match.append(letter)
                 break
 
