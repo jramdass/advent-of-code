@@ -34,7 +34,6 @@ if __name__ == "__main__":
         if c-distincts-1 > 0:
             window = []
             for i in range(distincts):
-
                 window.append(values[c-i])
 
             if(len(set(window))) >= distincts:
